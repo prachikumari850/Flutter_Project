@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "239335501962",
+    "project_id": "khojmitra-app-flutter",
+    "storage_bucket": "khojmitra-app-flutter.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239335501962:android:ef1201cc3ace808759bd73",
+        "android_client_info": {
+          "package_name": "com.example.khojmitra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2OyW6j2XFF4Ff4Kn_RkZnVPyvtuEptsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
