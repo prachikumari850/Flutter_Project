@@ -35,7 +35,7 @@ khojmitra/
 - **Flutter Widgets** – Material components, layouts, navigation 
 
 ## To Run The Repository 
-cd flutter
-cd Flutter_Project
-cd khojmitra
+cd flutter ->
+cd Flutter_Project -> 
+cd khojmitra ->
 flutter run -d chrome or flutter run -d edge
