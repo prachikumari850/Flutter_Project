@@ -1,6 +1,6 @@
 # KhojMitra AI - Flutter UI Demo
 
-**KhojMitra AI** – ABESIT’s Smart AI Locator (UI Prototype Only) 
+**KhojMitra AI** – Smart AI Locator for Campus(UI Prototype Only) 
 
 ## Project Structure
 khojmitra/
