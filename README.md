@@ -1,6 +1,8 @@
 # KhojMitra AI - Flutter UI Demo
 
-**KhojMitra AI** – Smart AI Locator for Campus(UI Prototype Only) 
+**KhojMitra AI** – Smart AI Locator for Campus(UI Prototype Only)
+----
+**This Project Prototype Design is made For Campus Lost and Found Issues.**
 
 ## Project Structure
 khojmitra/
@@ -31,3 +33,9 @@ khojmitra/
 - **Flutter** – Cross-platform UI framework  
 - **Dart** – Programming language  
 - **Flutter Widgets** – Material components, layouts, navigation 
+
+## To Run The Repository 
+cd flutter
+cd Flutter_Project
+cd khojmitra
+flutter run -d chrome or flutter run -d edge
