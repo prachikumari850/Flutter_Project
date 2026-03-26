@@ -1,0 +1,116 @@
+// ============================================================
+// data/dummy_data.dart
+// Local dummy JSON-style data for demo purposes
+// ============================================================
+
+import '../models/item_model.dart';
+
+// Global list of items (acts as local "database")
+List<ItemModel> dummyItems = [
+  ItemModel(
+    id: '1',
+    title: 'Blue Water Bottle',
+    description: 'A blue Nike water bottle with my name written on the bottom. Left near the canteen area.',
+    status: 'lost',
+    location: 'Main Canteen, Block A',
+    category: 'Accessories',
+    imagePlaceholder: '🍶',
+    postedBy: 'Arjun Sharma',
+    postedDate: 'Today, 10:30 AM',
+    confidenceScore: 87,
+  ),
+  ItemModel(
+    id: '2',
+    title: 'Student ID Card',
+    description: 'Found a student ID card near the library entrance. Name: Priya Verma, CS 2nd Year.',
+    status: 'found',
+    location: 'Library Entrance',
+    category: 'Documents',
+    imagePlaceholder: '🪪',
+    postedBy: 'Rahul Gupta',
+    postedDate: 'Today, 09:15 AM',
+    confidenceScore: 95,
+  ),
+  ItemModel(
+    id: '3',
+    title: 'Black Backpack',
+    description: 'Lost my black Wildcraft backpack with laptop inside. Very urgent! Last seen in Lab 3.',
+    status: 'lost',
+    location: 'Computer Lab 3, Block B',
+    category: 'Bags',
+    imagePlaceholder: '🎒',
+    postedBy: 'Sneha Patel',
+    postedDate: 'Yesterday, 5:00 PM',
+    confidenceScore: 72,
+  ),
+  ItemModel(
+    id: '4',
+    title: 'Wireless Earbuds',
+    description: 'Found white earbuds (looks like boat) near the basketball court. Case included.',
+    status: 'found',
+    location: 'Sports Ground',
+    category: 'Electronics',
+    imagePlaceholder: '🎧',
+    postedBy: 'Vikram Singh',
+    postedDate: 'Yesterday, 3:45 PM',
+    confidenceScore: 91,
+  ),
+  ItemModel(
+    id: '5',
+    title: 'Calculator (Casio)',
+    description: 'Lost my Casio scientific calculator during the math exam. Has a small scratch on the back.',
+    status: 'lost',
+    location: 'Exam Hall 2, Block C',
+    category: 'Stationery',
+    imagePlaceholder: '🔢',
+    postedBy: 'Ananya Mishra',
+    postedDate: '2 days ago',
+    confidenceScore: 64,
+  ),
+  ItemModel(
+    id: '6',
+    title: 'Laptop Charger',
+    description: 'Found a Dell laptop charger in the seminar hall. 65W adapter.',
+    status: 'found',
+    location: 'Seminar Hall, Block A',
+    category: 'Electronics',
+    imagePlaceholder: '🔌',
+    postedBy: 'Rohan Kumar',
+    postedDate: '2 days ago',
+    confidenceScore: 78,
+  ),
+  ItemModel(
+    id: '7',
+    title: 'Red Notebook',
+    description: 'Lost a red spiral notebook with DSA notes inside. Very important for upcoming exams!',
+    status: 'lost',
+    location: 'Reading Room, Library',
+    category: 'Stationery',
+    imagePlaceholder: '📓',
+    postedBy: 'Kavya Reddy',
+    postedDate: '3 days ago',
+    confidenceScore: 83,
+  ),
+  ItemModel(
+    id: '8',
+    title: 'Umbrella (Blue)',
+    description: 'Found a folding blue umbrella near the main gate. Good condition.',
+    status: 'found',
+    location: 'Main Gate',
+    category: 'Accessories',
+    imagePlaceholder: '☂️',
+    postedBy: 'Amit Joshi',
+    postedDate: '3 days ago',
+    confidenceScore: 69,
+  ),
+];
+
+// Categories for home screen
+const List<Map<String, dynamic>> categories = [
+  {'label': 'Electronics', 'icon': '💻', 'color': 0xFF5C6BC0},
+  {'label': 'Documents', 'icon': '📄', 'color': 0xFF26A69A},
+  {'label': 'Bags', 'icon': '🎒', 'color': 0xFFEF7C22},
+  {'label': 'Accessories', 'icon': '⌚', 'color': 0xFFE53935},
+  {'label': 'Stationery', 'icon': '✏️', 'color': 0xFF8D6E63},
+  {'label': 'Others', 'icon': '📦', 'color': 0xFF546E7A},
+];
