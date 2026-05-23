@@ -52,6 +52,15 @@ class AppGradients {
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
+
+  static const LinearGradient headerGradient = LinearGradient(
+    colors: [
+      Color(0xFF1A237E),
+      Color(0xFF3F51B5),
+    ],
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+  );
 }
 
 // ── Shadows ────────────────────────────────────────────────
