@@ -6,7 +6,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import '../utils/theme.dart';
-import '../services/notification_service.dart';
+// import '../services/notification_service.dart';
 import 'login_screen.dart';
 import 'main_wrapper.dart';
 
@@ -62,7 +62,7 @@ class _SplashScreenState extends State<SplashScreen>
     if (!mounted) return;
 
     // Init notifications
-    await NotificationService().init();
+    // await NotificationService().init(); 
 
     // Check if user is already signed in (persistent login)
     final user = FirebaseAuth.instance.currentUser;

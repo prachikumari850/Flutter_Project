@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "239335501962",
-    "project_id": "khojmitra-app-flutter",
-    "storage_bucket": "khojmitra-app-flutter.firebasestorage.app"
+    "project_number": "183829733604",
+    "project_id": "khojmitra-ai",
+    "storage_bucket": "khojmitra-ai.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:239335501962:android:ef1201cc3ace808759bd73",
+        "mobilesdk_app_id": "1:183829733604:android:65a020b84f51b67be48cf1",
         "android_client_info": {
           "package_name": "com.example.khojmitra"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyA2OyW6j2XFF4Ff4Kn_RkZnVPyvtuEptsE"
+          "current_key": "AIzaSyCiyPTwTNAmzFMkEcsjBqfF8p-Yv1RWTGo"
         }
       ],
       "services": {

@@ -18,7 +18,7 @@ class AiMatchingService {
   AiMatchingService._();
 
   final FirestoreService    _fs   = FirestoreService();
-  final NotificationService _notif = NotificationService();
+  // final NotificationService _notif = NotificationService();
   final _uuid = const Uuid();
 
   // ── Common stop words to ignore in matching ────────────
@@ -71,12 +71,12 @@ class AiMatchingService {
           await _fs.addReward(foundItem.userId, 30);
 
           // Send in-app + FCM notification to person who lost the item
-          await _notif.sendMatchNotification(
-            lostUserId:   lostItem.userId,
-            lostTitle:    lostItem.title,
-            foundTitle:   foundItem.title,
-            score:        score,
-          );
+          // // await _notif.sendMatchNotification(
+          //   lostUserId:   lostItem.userId,
+          //   lostTitle:    lostItem.title,
+          //   foundTitle:   foundItem.title,
+          //   score:        score,
+          // );
         }
       }
     }
