@@ -16,6 +16,7 @@ import '../services/auth_service.dart';
 import '../services/firestore_service.dart';
 import '../services/storage_service.dart';
 import '../services/ai_matching_service.dart';
+import 'package:flutter/foundation.dart';
 
 class ReportItemScreen extends StatefulWidget {
   final String? initialStatus;
@@ -304,10 +305,23 @@ class _ReportItemScreenState extends State<ReportItemScreen> {
                       clipBehavior: Clip.antiAlias,
                       child: _imageFile != null
                           ? Stack(children: [
-                              Image.file(_imageFile!,
-                                  fit: BoxFit.cover,
-                                  width: double.infinity,
-                                  height: double.infinity),
+                              // Image.file(_imageFile!,
+                              //     fit: BoxFit.cover,
+                              //     width: double.infinity,
+                              //     height: double.infinity),
+                              kIsWeb
+                                  ? Image.network(
+                                      _imageFile!.path,
+                                      fit: BoxFit.cover,
+                                      width: double.infinity,
+                                      height: double.infinity,
+                                    )
+                                  : Image(
+                                      image: FileImage(_imageFile!),
+                                      fit: BoxFit.cover,
+                                      width: double.infinity,
+                                      height: double.infinity,
+                                    ),
                               Positioned(
                                 top: 8, right: 8,
                                 child: Container(
