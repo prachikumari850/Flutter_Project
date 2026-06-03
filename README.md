@@ -121,7 +121,7 @@ lib/
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/prachikumari850/khojmitra.git
+git clone https://github.com/prachikumari850/Flutter_Project.git
 cd khojmitra
 ```
 
